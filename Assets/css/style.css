@@ -1,0 +1,64 @@
+@media screen and (min-width: 1024px) {
+    body {
+      font-size: 14px;
+      color: green;
+    }
+  }
+  
+  h1 {
+    color: magenta;
+    text-align: center;
+  }
+  
+  h2, p, h3 {
+    color: magenta;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  nav li {
+    color: mediumspringgreen;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul {
+    border: 1px solid mediumspringgreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pic03:hover,
+  .pic01:hover,
+  .pic02:hover {
+    transform: scale(1.5);
+  }
+  
+  .koenigsegg {
+    width: 100px;
+    height: auto;
+  }
+  
+  #about-me, .footer p {
+    color: mediumspringgreen;
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 2%;
+    color: greenyellow;
+  }
+  
+  .pic01 {
+    width: 400px;
+    height: auto;
+  }
+  
+  .pic03, .pic01 {
+    width: 200px;
+    height: auto;
+  }
